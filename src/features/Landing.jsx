@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Badge, Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import humanImg from "@/assets/images/human.png";
 
 export function Landing() {
@@ -14,9 +14,14 @@ export function Landing() {
     </Box>
   );
   const rightSection = (
-    <>
+    <Box mt={{ base: 20, md: 0 }}>
+      <Flex justify="flex-end">
+        <Badge bg="primary.light" borderRadius={7} p={3} textAlign="ceter">
+          <Text p={3}>Ready to learn</Text>
+        </Badge>
+      </Flex>
       <Image src={humanImg} w={400} />
-    </>
+    </Box>
   );
 
   return (
