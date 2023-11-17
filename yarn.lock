@@ -1124,15 +1124,15 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.53.0.tgz#bea56f2ed2b5baea164348ff4d5a879f6f81f20d"
   integrity sha512-Kn7K8dx/5U6+cT1yEhpX1w4PCSg0M+XyRILPgvwcEBjerFWCwQj5sbr3/VmxqV0JGHCBCzyd6LxypEuehypY1w==
 
-"@fontsource-variable/inter@^5.0.15":
-  version "5.0.15"
-  resolved "https://registry.yarnpkg.com/@fontsource-variable/inter/-/inter-5.0.15.tgz#f478ca30aa5ac275a45fe8c600654dc8eb0db279"
-  integrity sha512-CdQPQQgOVxg6ifmbrqYZeUqtQf7p2wPn6EvJ4M+vdNnsmYZgYwPPPQDNlIOU7LCUlSGaN26v6H0uA030WKn61g==
+"@fontsource/akatab@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/akatab/-/akatab-5.0.3.tgz#53f95555773112a6b9c89064b4ac595340a3a984"
+  integrity sha512-S9uKKJS9XkUU8jZFmkuSh0niwaOnVey1iaTpAR6Ra9aj8tKDmRybem1SK1Gk7MsjHngLBX7jy7m9nG6lPrW7Ow==
 
-"@fontsource-variable/raleway@^5.0.16":
-  version "5.0.16"
-  resolved "https://registry.yarnpkg.com/@fontsource-variable/raleway/-/raleway-5.0.16.tgz#2d26abbb45f8acababf9d5070773879e0f31d366"
-  integrity sha512-so9XnyYFX22qNFn6f70ZherFZwhkJYp58R7bS7ZLuXUefWLyhualoowvujDANoMtMPqT85nMrzOwoK4yPG0Crw==
+"@fontsource/barlow@^5.0.8":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/barlow/-/barlow-5.0.8.tgz#ab29add7769358c07b183bfee17a1d6798317472"
+  integrity sha512-RMUw8YyoNG3o1rwMnfyyWqYuR7k6H48yYZwpCsgY0x7jeaRdp/FdyG6lPLD5P403kDyqauewldk+VDPhQ65+4w==
 
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"

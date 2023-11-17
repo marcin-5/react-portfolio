@@ -10,8 +10,8 @@ const colors = {
 };
 
 const fonts = {
-  heading: `'Inter', sans-serif`,
-  body: `'Raleway', sans-serif`,
+  heading: `'Akatab', sans-serif`,
+  body: `'Barlow', sans-serif`,
 };
 
 export const myTheme = extendTheme({ colors, fonts });
