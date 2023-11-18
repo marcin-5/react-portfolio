@@ -1,5 +1,6 @@
 import "@fontsource/akatab";
 import "@fontsource/barlow";
+import "@/locales/i18n-config.js";
 
 import { myTheme } from "@/styles/theme.js";
 import { ChakraProvider } from "@chakra-ui/react";
