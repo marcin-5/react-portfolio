@@ -10,8 +10,8 @@ const colors = {
 };
 
 const fonts = {
-  heading: `'Akatab', sans-serif`,
-  body: `'Barlow', sans-serif`,
+  heading: `'Rubik Variable', sans-serif`,
+  body: `'Figtree Variable', sans-serif`,
 };
 
 export const myTheme = extendTheme({ colors, fonts });

@@ -1,5 +1,6 @@
-import "@fontsource/akatab";
 import "@fontsource/barlow";
+import "@fontsource-variable/figtree";
+import "@fontsource-variable/rubik";
 import "@/locales/i18n-config.js";
 
 import { myTheme } from "@/styles/theme.js";

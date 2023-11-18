@@ -1124,10 +1124,15 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.53.0.tgz#bea56f2ed2b5baea164348ff4d5a879f6f81f20d"
   integrity sha512-Kn7K8dx/5U6+cT1yEhpX1w4PCSg0M+XyRILPgvwcEBjerFWCwQj5sbr3/VmxqV0JGHCBCzyd6LxypEuehypY1w==
 
-"@fontsource/akatab@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@fontsource/akatab/-/akatab-5.0.3.tgz#53f95555773112a6b9c89064b4ac595340a3a984"
-  integrity sha512-S9uKKJS9XkUU8jZFmkuSh0niwaOnVey1iaTpAR6Ra9aj8tKDmRybem1SK1Gk7MsjHngLBX7jy7m9nG6lPrW7Ow==
+"@fontsource-variable/figtree@^5.0.18":
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/figtree/-/figtree-5.0.18.tgz#2d78963eec2af8065b5c98f36ddba4ef2e41dac1"
+  integrity sha512-w7H3FRSMZHQc6rugpAys6iUgG4weWvWmCSsvUU91/ueWhYqjyR0eHCj6F9/5G9Btp5IQTc4IUJXwE+NxSN+GLg==
+
+"@fontsource-variable/rubik@^5.0.19":
+  version "5.0.19"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/rubik/-/rubik-5.0.19.tgz#5256ce5ba8873834864cc27328221ad0a2f61555"
+  integrity sha512-tn/3xz7BDopocUOYUUdmcMosjlEStF4C/Jea2j/JAhe9l/5kMQ6ibKFoXYyzGzi+2cljn2i4s2rSlkM2n8oQQg==
 
 "@fontsource/barlow@^5.0.8":
   version "5.0.8"

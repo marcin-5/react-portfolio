@@ -18,7 +18,8 @@ export function Header() {
           display="flex"
           href="mailto:marcin_5@mail.ru?subject=Contacting you from your portfolio"
           fontSize="lg"
-          fontWeight={800}
+          fontWeight={600}
+          fontFamily={"Barlow"} 
         >
           <Image src={hashImg} h={8} mr={3} />
           {t("otw")}
