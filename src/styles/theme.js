@@ -7,6 +7,18 @@ const colors = {
   },
   secondary: "#323210",
   black: "#101001",
+
+  React: "#087EA5",
+  Redux: "#765abc",
+  TypeScript: "#2F75C0",
+  "Node.js": "#026E00",
+  ES6: "#f5c50f",
+  HTML: "#dd5d25",
+  CSS: "#255ddd",
+  Bootstrap: "#884ff4",
+  Firebase: "#f7c55c",
+  Vercel: "#292e3e",
+  ChakraUI: "#43c2bd",
 };
 
 const fonts = {

@@ -1,6 +1,20 @@
 import humanImg from "@/assets/images/human.png";
-import { Badge, Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Badge, Box, Flex, Heading, Image, Text, Wrap, WrapItem } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
+
+const SKILLS = [
+  { label: "React" },
+  { label: "Redux" },
+  { label: "ES6" },
+  { label: "TypeScript" },
+  { label: "Node.js" },
+  { label: "HTML" },
+  { label: "CSS" },
+  { label: "Bootstrap" },
+  { label: "Vercel" },
+  { label: "ChakraUI" },
+  { label: "Firebase" },
+];
 
 export function Landing() {
   const { t } = useTranslation("home");
@@ -12,6 +26,15 @@ export function Landing() {
       <Text fontSize={{ base: "lg", xl: "xl" }} fontWeight={600}>
         {t("iAmDev")} <br /> {t("location")}
       </Text>
+      <Wrap mt={"14"}>
+        {SKILLS.map((skill) => (
+          <WrapItem key={skill.label}>
+            <Badge w={130} px={3} py={3} bg={skill.label} color={"white"} borderRadius={3}>
+              {skill.label}
+            </Badge>
+          </WrapItem>
+        ))}
+      </Wrap>
     </Box>
   );
   const rightSection = (
