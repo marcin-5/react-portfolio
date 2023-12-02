@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 export const LatestProjects = () => {
   const [projects, setProjects] = useState();
-  const { t } = useTranslation("home");
+  const { t, i18n } = useTranslation("home");
 
   async function fetchAll() {
     const projectsResponse = await ProjectsAPI.fetchAll();
@@ -16,7 +16,7 @@ export const LatestProjects = () => {
     fetchAll();
   }, []);
 
-  const renderProject = ({ id, description, images, technologies, title }) => {
+  const renderProject = ({ id, desc, images, technologies, title }) => {
     return (
       <WrapItem key={id} flexDir={"column"}>
         <ImageSlider imageList={images.map((img) => img.downloadURL)} />
@@ -31,10 +31,10 @@ export const LatestProjects = () => {
           />
           {title}
         </Heading>
-        <Text>{description}</Text>
+        <Text>{desc[i18n.language]}</Text>
         <Wrap mt={"2"} maxWidth={350}>
-          {technologies.map((tech) => (
-            <WrapItem key={tech}>
+          {technologies.map((tech, i) => (
+            <WrapItem key={i}>
               <Badge w={111} px={3} py={1} bg={tech} color={"white"} borderRadius={3}>
                 {tech}
               </Badge>
